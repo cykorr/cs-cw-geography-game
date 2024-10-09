@@ -114,3 +114,62 @@ else:
 
 time.sleep(2.0)
 
+# q7
+print("----------------------------") # this is to make a new line
+q7 = str(input('''question?
+a) test
+b) test
+c) test
+answer : '''))
+if q7.lower() == "b" or user == cntrl_panel:
+    print("answer is correct! your current score is :", str(total_score))
+    total_score = total_score + 1
+else:
+    print("womp womp, that's incorrect")   
+
+time.sleep(2.0)
+
+# q8
+print("----------------------------") # this is to make a new line
+q8 = str(input('''test
+a) test
+b) test
+c) test
+answer : '''))
+if q8.lower() == "b" or user == cntrl_panel:
+    print("answer is correct! your current score is :", str(total_score))
+    total_score = total_score + 1
+else:
+    print("womp womp, that's incorrect")   
+
+time.sleep(2.0)
+
+# q9
+print("----------------------------") # this is to make a new line
+q9 = str(input('''qyesution
+a) test
+b) test
+c) test
+answer : '''))
+if q9.lower() == "b" or user == cntrl_panel:
+    print("answer is correct! your current score is :", str(total_score))
+    total_score = total_score + 1
+else:
+    print("womp womp, that's incorrect")   
+
+time.sleep(2.0)
+
+# q10
+print("----------------------------") # this is to make a new line
+q10 = str(input('''qyesution
+a) test
+b) test
+c) test
+answer : '''))
+if q10.lower() == "b" or user == cntrl_panel:
+    print("answer is correct! your current score is :", str(total_score))
+    total_score = total_score + 1
+else:
+    print("womp womp, that's incorrect")   
+
+time.sleep(2.0)
