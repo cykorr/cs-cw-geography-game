@@ -12,6 +12,8 @@ welcome to geography quiz!!!
 user = str(input('''what do u want ur username to be?
 '''))
 username = "@" + user # creates usernameVAR to hide true user and hidden ids
+
+# -------------------------------
 # admin debug panel, ignore
 if user.lower() == "admin123":
     debug_mode = input('''administrator detected.
@@ -27,6 +29,7 @@ elif user.lower() == "super_secret_admin_password":
     print("loophole detected...")
     user = "clown"
     username = "@clown"
+# -------------------------------
 
 print("welcome", username,"to GEOGRAPHY GAME!!!!")
 print("created by the mighty heydon")
@@ -41,7 +44,10 @@ q1 = str(input('''how old is the earth rounded to 1 number in the billions?
 answer : '''))
 if q1 == "5" or user == cntrl_panel:
     print("answer is correct", username,"! your current score is : 1")
-    total_score = 1
+    total_score = total_score + 1
+elif user == "clown":
+    total_score = 0
+    print("ur score is 0 bcuz u a clown 💀")
 else:
     print("womp womp, that's incorrect")
 
@@ -53,6 +59,9 @@ q2 = str(input('''how many continents are there? : '''))
 if q2 == "7" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
+elif user == "clown":
+    total_score = 0
+    print("ur score is 0 bcuz u a clown 💀")
 else:
     print("womp womp, that's incorrect") 
 
@@ -64,6 +73,9 @@ q3 = str(input("what's the hardest material on earth? : "))
 if q3.lower() == "diamond" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
+elif user == "clown":
+    total_score = 0
+    print("ur score is 0 bcuz u a clown 💀")
 else:
     print("womp womp, that's incorrect")  
 
@@ -75,6 +87,9 @@ q4 = str(input("which continent is russia located in? : "))
 if q4.lower() == "asia" or q4.lower() == "europe" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
+elif user == "clown":
+    total_score = 0
+    print("ur score is 0 bcuz u a clown 💀")
 else:
     print("womp womp, that's incorrect") 
 
@@ -90,6 +105,9 @@ answer : '''))
 if q5.lower() == "a" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
+elif user == "clown":
+    total_score = 0
+    print("ur score is 0 bcuz u a clown 💀")
 else:
     print("womp womp, that's incorrect")   
 
@@ -109,6 +127,9 @@ elif q6.lower() == "c":
     print("nah bruda r u dumb :skull: deducting a point for that")
     total_score = total_score - 1
     print("your current score is :", str(total_score))
+elif user == "clown":
+    total_score = 0
+    print("ur score is 0 bcuz u a clown 💀")
 else:
     print("womp womp, that's incorrect")   
 
@@ -124,6 +145,9 @@ answer : '''))
 if q7.lower() == "b" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
+elif user == "clown":
+    total_score = 0
+    print("ur score is 0 bcuz u a clown 💀")
 else:
     print("womp womp, that's incorrect")   
 
@@ -139,6 +163,9 @@ answer : '''))
 if q8.lower() == "b" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
+elif user == "clown":
+    total_score = 0
+    print("ur score is 0 bcuz u a clown 💀")
 else:
     print("womp womp, that's incorrect")   
 
@@ -154,6 +181,9 @@ answer : '''))
 if q9.lower() == "b" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
+elif user == "clown":
+    total_score = 0
+    print("ur score is 0 bcuz u a clown 💀")
 else:
     print("womp womp, that's incorrect")   
 
@@ -169,6 +199,9 @@ answer : '''))
 if q10.lower() == "b" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
+elif user == "clown":
+    total_score = 0
+    print("ur score is 0 bcuz u a clown 💀")
 else:
     print("womp womp, that's incorrect")   
 
