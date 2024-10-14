@@ -45,9 +45,6 @@ answer : '''))
 if q1 == "5" or user == cntrl_panel:
     print("answer is correct", username,"! your current score is : 1")
     total_score = total_score + 1
-elif user == "clown":
-    total_score = 0
-    print("ur score is 0 bcuz u a clown 💀")
 else:
     print("womp womp, that's incorrect")
 
@@ -59,11 +56,8 @@ q2 = str(input('''how many continents are there? : '''))
 if q2 == "7" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
-elif user == "clown":
-    total_score = 0
-    print("ur score is 0 bcuz u a clown 💀")
 else:
-    print("womp womp, that's incorrect") 
+    print("womp womp, that's incorrect")
 
 time.sleep(2.0)
 
@@ -73,11 +67,8 @@ q3 = str(input("what's the hardest material on earth? : "))
 if q3.lower() == "diamond" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
-elif user == "clown":
-    total_score = 0
-    print("ur score is 0 bcuz u a clown 💀")
 else:
-    print("womp womp, that's incorrect")  
+    print("womp womp, that's incorrect")
 
 time.sleep(2.0)
 
@@ -87,11 +78,8 @@ q4 = str(input("which continent is russia located in? : "))
 if q4.lower() == "asia" or q4.lower() == "europe" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
-elif user == "clown":
-    total_score = 0
-    print("ur score is 0 bcuz u a clown 💀")
 else:
-    print("womp womp, that's incorrect") 
+    print("womp womp, that's incorrect")
 
 time.sleep(2.0)
 
@@ -100,16 +88,13 @@ print("----------------------------") # this is to make a new line
 q5 = str(input('''What is the name of the tallest mountain in the world?
 a) mount everest
 b) mount K2
-c) mount tai 
+c) mount tai
 answer : '''))
 if q5.lower() == "a" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
-elif user == "clown":
-    total_score = 0
-    print("ur score is 0 bcuz u a clown 💀")
 else:
-    print("womp womp, that's incorrect")   
+    print("womp womp, that's incorrect")
 
 time.sleep(2.0)
 
@@ -127,11 +112,8 @@ elif q6.lower() == "c":
     print("nah bruda r u dumb :skull: deducting a point for that")
     total_score = total_score - 1
     print("your current score is :", str(total_score))
-elif user == "clown":
-    total_score = 0
-    print("ur score is 0 bcuz u a clown 💀")
 else:
-    print("womp womp, that's incorrect")   
+    print("womp womp, that's incorrect")
 
 time.sleep(2.0)
 
@@ -145,11 +127,8 @@ answer : '''))
 if q7.lower() == "b" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
-elif user == "clown":
-    total_score = 0
-    print("ur score is 0 bcuz u a clown 💀")
 else:
-    print("womp womp, that's incorrect")   
+    print("womp womp, that's incorrect")
 
 time.sleep(2.0)
 
@@ -163,11 +142,8 @@ answer : '''))
 if q8.lower() == "b" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
-elif user == "clown":
-    total_score = 0
-    print("ur score is 0 bcuz u a clown 💀")
 else:
-    print("womp womp, that's incorrect")   
+    print("womp womp, that's incorrect")
 
 time.sleep(2.0)
 
@@ -181,11 +157,8 @@ answer : '''))
 if q9.lower() == "b" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
-elif user == "clown":
-    total_score = 0
-    print("ur score is 0 bcuz u a clown 💀")
 else:
-    print("womp womp, that's incorrect")   
+    print("womp womp, that's incorrect")
 
 time.sleep(2.0)
 
@@ -199,10 +172,10 @@ answer : '''))
 if q10.lower() == "b" or user == cntrl_panel:
     print("answer is correct! your current score is :", str(total_score))
     total_score = total_score + 1
-elif user == "clown":
-    total_score = 0
-    print("ur score is 0 bcuz u a clown 💀")
 else:
-    print("womp womp, that's incorrect")   
+    print("womp womp, that's incorrect")
 
 time.sleep(2.0)
+
+print(''' this is the end of the GEOGRAPHY GAMES!!!
+ur current score is :''', str(total_score))
